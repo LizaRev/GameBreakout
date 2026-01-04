@@ -186,7 +186,7 @@ int main() {
                     bricks = createLevel(level, windowWidth);
                 }
 
-                // Черный фон во время игры
+               
                 window.clear(Color::Black);
                 window.draw(paddle); window.draw(ball);
                 for(auto &b:bricks) if(b.alive) window.draw(b.shape);
